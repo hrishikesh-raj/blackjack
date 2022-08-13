@@ -1,0 +1,36 @@
+<!-- HTML for Blackjack Game -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
+    <div class="game-name">
+        <h1>Blackjack</h1>
+    </div>
+    <div class="white-center">
+        <p id="message-el">Click "START GAME" button to play!</p>
+    </div>
+    <div class="white-center">
+        <p id="cards-el">Cards: </p>
+    </div>
+    <div class="white-center">
+        <p id="sum-el">Sum: </p>
+    </div>
+    <div class="start-game">
+        <button class="start-game-btn all-btn" onclick="startGame()">START GAME</button>
+    </div>
+    <div class="new-card">
+        <button class="new-card-btn all-btn" onclick="newCard()">NEW CARD</button>
+    </div>
+    <div class="white-center">
+        <p id="player-el"></p>
+    </div>
+</body>
+</html>
